@@ -4,6 +4,7 @@ const collection = "bd3-nosql-atv7";
 
 use(database);
 
+//Inserção de produtos com campos requisitados
 db[collection].insertMany(
     [
   {

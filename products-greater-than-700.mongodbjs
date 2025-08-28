@@ -4,4 +4,5 @@ const collection = "bd3-nosql-atv7";
 
 use(database);
 
+//Procura por produtos com valor maior que R$700
 db[collection].find({valor: {$gt: 700}});
